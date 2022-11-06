@@ -1,0 +1,100 @@
+body{
+    padding:0px;
+    margin:0px;
+
+}
+#menu{
+    position: fixed;
+    width: 100%;
+    max-width: 200%;
+}
+#menu ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    background-color:#333333;
+    overflow:hidden;
+
+}
+#menu li{
+    float: right;
+   padding:20px;
+
+}
+#menu a{
+    font-size:20px;
+    text-decoration:none;
+    color:white;
+}
+#menu p{
+    color:white;
+    padding-left: 40px;
+}
+.image-header img{
+    width:80%;
+    max-width:200%;
+    margin-left: 9vw;
+}
+.text-img{
+    position : absolute;
+    
+}
+.text-img h1{
+    position: relative;
+    top: 38vh;
+    right: 46vw;
+    color: white;
+    font-size:40px;
+  
+}
+.text-img b{
+    background-color:black;
+}
+.text-img p{
+    position:relative;
+    top: 29vh;
+    right: 43vw;
+    font-size:40px;
+    color:white;
+}
+.clear{
+    clear:both
+}
+.main-content h2{
+    margin-left: 9vw;
+    margin-top: 5vh;
+}
+.main-content hr{
+    width:80vw;
+    background-color:whitesmoke;
+}
+.main-content-img{
+
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.side-img {
+    width: 70% ;
+    padding-left: 8vw;
+    clear:both;
+}
+.side-img img{
+    width: 30%;
+    margin:10px;
+}
+.side-img button{
+    width: 18vw;
+    padding: 10px;
+    margin: 10px;
+    display:inline-block;
+}
+.side-img p{
+    margin-left:30px;
+}
+.slide-text{
+   margin: 0px;
+   padding:0px;
+   font-size: 20px;
+    
+}
