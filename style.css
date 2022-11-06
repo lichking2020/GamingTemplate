@@ -1,7 +1,11 @@
-body{
-    padding:0px;
-    margin:0px;
+*{
+    margin: 0;
+    padding: 0;
+}
 
+img{
+    width: 100%;
+    height: auto;
 }
 #menu{
     position: fixed;
@@ -71,7 +75,7 @@ body{
 .main-content-img{
 
     display:flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     
 }
 .side-img {
@@ -79,10 +83,12 @@ body{
     padding-left: 8vw;
     clear:both;
 }
-.side-img img{
+.side-img article{
+    display: inline-block;
     width: 30%;
     margin:10px;
 }
+
 .side-img button{
     width: 18vw;
     padding: 10px;
@@ -90,6 +96,7 @@ body{
     display:inline-block;
 }
 .side-img p{
+    width: 30%;
     margin-left:30px;
 }
 .slide-text{
